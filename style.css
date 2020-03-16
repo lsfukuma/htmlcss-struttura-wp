@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     width: 100vw;
     height: 100vh;
@@ -31,9 +32,7 @@ header strong {
 }
 
 #page-wrapper {
-    height: 600px;
-    width: 90%
-    margin: auto;
+    height: 60%;
     padding: 1% 5%;
 }
 
@@ -41,33 +40,57 @@ nav {
     width: 90%;
     height: 5%;
     margin: auto;
-    background-color: darkgray;
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 2%;
+    background-color: #504741;
+    padding-top: 1%;
     color: white;
     font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+nav:hoover {
+    color: #504741;
+    background-color: black;
+
 }
 
 #laterale-sinistra {
     width: 30%;
     height: 60%;
-    background-color: pink;
+    background-color: white;
     float: left;
+    border-radius: 5px;
+    padding: 10px;
+
 }
 
 main {
     width: 50%;
     height: 60%;
-    background-color: red;
+    background-color: white;
     float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    border-radius: 5px;
+    padding: 10px;
+
 }
 
 #laterale-destra1, #laterale-destra2 {
-    width: 20%;
-    height: 30%;
-    background-color: purple;
+    width: 18%;
+    height: 28%;
+    background-color: white;
     float: right;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+
+#laterale-destra2 h1, main h1, #laterale-sinistra h1 {
+    color: #504741;
+    text-align: center;
 }
 
 footer {
@@ -75,6 +98,6 @@ footer {
     height: 10%;
     background-color: white;
     margin: auto;
-    bottom: 0;
-
+    text-align: right;
+    text-emphasis-style: sesame;
 }
