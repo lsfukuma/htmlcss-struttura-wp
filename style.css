@@ -3,27 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-main {
+body {
     width: 100vw;
     height: 100vh;
-    background-color: darkblue;
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
     margin: center;
+
 }
 
 header {
-    width: 80%;
-    height: 20%;
-    background-color: yellow;
+    width: 90%;
+    height: 30%;
     margin: auto;
+    border: 15px solid white;
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 80px;
+    position: relative;
+}
+
+header strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page-wrapper {
+    height: 600px;
+    width: 90%
+    margin: auto;
+    padding: 1% 5%;
 }
 
 nav {
-    width: 80%;
+    width: 90%;
     height: 5%;
-    background-color: green;
     margin: auto;
-
+    background-color: darkgray;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 2%;
+    color: white;
+    font-weight: bold;
 }
 
 #laterale-sinistra {
@@ -33,24 +56,25 @@ nav {
     float: left;
 }
 
-section {
+main {
     width: 50%;
     height: 60%;
     background-color: red;
     float: left;
 }
 
-#laterale-destra {
+#laterale-destra1, #laterale-destra2 {
     width: 20%;
     height: 30%;
     background-color: purple;
-    float: left;
+    float: right;
 }
+
 footer {
-   width: 80%;
-   height: 20%;
-   background-color: white;
-   margin: auto;
-   bottom: 0;
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    margin: auto;
+    bottom: 0;
 
 }
