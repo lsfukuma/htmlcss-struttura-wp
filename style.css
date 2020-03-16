@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+    margin: center;
+}
+
+header {
+    width: 80%;
+    height: 20%;
+    background-color: yellow;
+    margin: auto;
+}
+
+nav {
+    width: 80%;
+    height: 5%;
+    background-color: green;
+    margin: auto;
+
+}
+
+#laterale-sinistra {
+    width: 30%;
+    height: 60%;
+    background-color: pink;
+    float: left;
+}
+
+section {
+    width: 50%;
+    height: 60%;
+    background-color: red;
+    float: left;
+}
+
+#laterale-destra {
+    width: 20%;
+    height: 30%;
+    background-color: purple;
+    float: left;
+}
+footer {
+   width: 80%;
+   height: 20%;
+   background-color: white;
+   margin: auto;
+   bottom: 0;
+
+}
